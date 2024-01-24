@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
+    <link rel="stylesheet" href="src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/main-content.css">
+</head>
+<body>
+    
+    <div class="sidebar">
+        <nav class="sidebar_navigation">
+            <div class="logo">
+                <a href="#">
+                    <img src="src/icons/logo-spotify.png" alt="logo_spotify" >
+                </a>
+                <div>
+                    <ul>
+                        <li><a href=""><i class="fa fa-home"></i><span>Inicio</span></a></li>
+                        <li><a href=""><i class="fa fa-search"></i><span>Buscar</span></a></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </nav>
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playslist</span>
+                    <span class="text subtitle">É facil , vamos te ajuda</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="#">cookies</a>
+            </div>
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Portugues do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="src/icons/small-left.png" alt="seta a esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="src/icons/small-right.png" alt="seta a direita">
+                    </button>
+                </div>
+                    <div class="header__search">
+                        <img src="src/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="o que voce quer ouvir?? ">
+
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe"> Increva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                
+            </nav>
+        </div>
+    </main>
+</body>
+</html>
